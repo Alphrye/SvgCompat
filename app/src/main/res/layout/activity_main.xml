@@ -6,13 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".demo.MainActivity">
 
-    <TextView
+    <com.nexuslink.svgcompat.SvgCompatTextView
+        android:text="@string/app_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:drawableStartCompat="@drawable/ic_android_black_24dp"
+        app:drawableEndCompat="@drawable/ic_android_black_24dp"
+        app:drawableTopCompat="@drawable/ic_android_black_24dp"
+        app:drawableBottomCompat="@drawable/ic_android_black_24dp"
+        app:tintStartDrawable="@color/colorAccent"
+        app:tintEndDrawable="@color/colorAccent"
+        app:tintTopDrawable="@color/colorAccent"
+        app:tintBottomDrawable="@color/colorAccent"/>
 
 </android.support.constraint.ConstraintLayout>
