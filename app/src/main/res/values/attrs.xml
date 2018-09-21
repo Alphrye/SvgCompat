@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SvgCompatTextView">
+        <attr name="drawableStartCompat" format="reference"/>
+        <attr name="drawableEndCompat" format="reference"/>
+        <attr name="drawableTopCompat" format="reference"/>
+        <attr name="drawableBottomCompat" format="reference"/>
+        <attr name="tintStartDrawable" format= "color"/>
+        <attr name="tintEndDrawable" format="color"/>
+        <attr name="tintTopDrawable" format="color"/>
+        <attr name="tintBottomDrawable" format="color"/>
+    </declare-styleable>
+</resources>
